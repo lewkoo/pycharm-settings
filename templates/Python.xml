@@ -1,0 +1,12 @@
+<templateSet group="Python">
+  <template name="rpcuncomment" value="# TODO: Uncomment this once RPC arrives" description="Inserts a pre-defined TODO item for plugging back currently missing libsbrpc references" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="rpcremove" value="# TODO: Remove this once RPC arrives" description="Inserts a pre-defined TODO item to remove extra code written due to currently missing libsbrpc references" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

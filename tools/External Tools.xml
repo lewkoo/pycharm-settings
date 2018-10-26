@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Generate Sphinx HTML" description="Generate Sphinx HTML documentation" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="make" />
+      <option name="PARAMETERS" value="html" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dialogueberry/docs/sphinx" />
+    </exec>
+  </tool>
+  <tool name="Start sphinx-auto" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="sphinx-auto" />
+      <option name="PARAMETERS" value="$USER_HOME$/dialogueberry/docs/sphinx/source /home/dnn/dialogueberry/docs/sphinx/build" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+</toolSet>
