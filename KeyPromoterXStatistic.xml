@@ -46,7 +46,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>158</Count>
+          <Count>173</Count>
         </Item>
       </Statistic>
       <Statistic Action="Edit...">
@@ -158,7 +158,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Run DM'</Description>
-          <Count>20</Count>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Run interruptions logger'">
@@ -182,7 +182,7 @@
           <IdeaActionID>RunToCursor</IdeaActionID>
           <ShortCut>'Alt+F9'</ShortCut>
           <Description>Run to Cursor</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
