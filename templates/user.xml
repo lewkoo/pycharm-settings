@@ -63,9 +63,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fnpdoc" value="Parameters&#10;----------&#10;&#10;&#10;Returns&#10;-------&#10;&#10;&#10;Raises&#10;------" description="Inserts Numpydoc params/returns for a function" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="fnpdoc" value="Parameters&#10;----------&#10;&#10;&#10;Returns&#10;-------&#10;&#10;&#10;Raises&#10;------" description="Inserts Numpydoc params/returns for a function" toReformat="false" toShortenFQNames="true" />
   <template name="for" value="for $value$ in $object$:&#10;    $value$$END$" description="for" toReformat="true" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
